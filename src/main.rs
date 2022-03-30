@@ -1,6 +1,7 @@
 
 mod routes;
 mod controllers;
+
 use tera::Tera;
 use actix_web::{App, HttpServer};
 
