@@ -2,22 +2,19 @@
 {% extends "base.html.tera" %}
 
 {% block title %}
-    Index
+    
 {% endblock title %}
-{% block head %}
-    {{ super() }}
-    <style type="text/css">
-        .important { color: red; }
-    </style>
-{% endblock head %}
 {% block content %}
-    <h1>Index</h1>
-    <p class="important">
-      Welcome to my awesome homepage.
-    </p>
-{% endblock content %}
-<div id="footer">
-    {% block footer %}
-        &copy; Copyright 2008 by <a href="http://domain.invalid/">you</a>.
-    {% endblock footer %}
+<div id="homes">
+    <div id="homes_main">
+        <div id="homes_left">
+            <img>
+            {% include 'partials/nav.html.tera' %}
+        </div>
+        <div id="homes_right">
+            <video></video>
+        </div>
+    </div>
+    <p>Copyright &copy; Master Page 2020 all rights reserved.</p>
 </div>
+{% endblock content %}

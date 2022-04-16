@@ -2,12 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {% block head %}
-        <link rel="stylesheet" href="style.css" />
-        <title>
-            {% block title %}{% endblock title %}
-        </title>
-    {% endblock head %}
+    <link rel="stylesheet" href="style.css" />
+    <title>
+        {% block title %}{% endblock title %}
+    </title>
 </head>
 <body>
     <div id="content">
