@@ -65,3 +65,9 @@ fn main() {
 ```
 trunk serve --open
 ```
+
+- URLによって表示されるサイトを変更
+
+```
+cargo add yew-router
+```
